@@ -13,13 +13,13 @@ This code implements a voice-controlled AI assistant with wake word functionalit
 Defining the Wake Word and Wake Word Mode Control Commands
 WAKE_WORD = "oracle": Specifies the wake word that triggers the assistant.
 DISABLE_WAKE_WORD_COMMAND = "deactivate": Defines the command to disable wake word mode.
-ENABLE_WAKE_WORD_COMMAND = "activate": Defines the command to enable wake word mode.
+ENABLE_WAKE_WORD_COMMAND = "activate": Defines the command to enable wake word mode.<br>
 Initializing the Wake Word Mode<br>
 wake_word_mode = True: Keeps track of whether the assistant is currently in wake word mode or not.<br>
 Modifying the Main Loop<br>
-The main loop is split into two parts to handle wake word mode and non-wake word mode separately.
+The main loop is split into two parts to handle wake word mode and non-wake word mode separately.<br>
 
-In wake word mode:
+In wake word mode:<br>
 
 If the wake word is detected using listen_for_wake_word(), the assistant proceeds to listen for a user prompt using listen().
 If the prompt is not None, it checks if the user has issued the command to disable wake word mode.
