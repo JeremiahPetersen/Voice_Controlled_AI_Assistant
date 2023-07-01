@@ -1,0 +1,6 @@
+openai
+speechrecognition
+gtts
+pydub
+python-dotenv
+pocketsphinx
