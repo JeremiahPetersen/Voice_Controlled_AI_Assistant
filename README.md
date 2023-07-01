@@ -14,9 +14,9 @@ Defining the Wake Word and Wake Word Mode Control Commands
 WAKE_WORD = "oracle": Specifies the wake word that triggers the assistant.
 DISABLE_WAKE_WORD_COMMAND = "deactivate": Defines the command to disable wake word mode.
 ENABLE_WAKE_WORD_COMMAND = "activate": Defines the command to enable wake word mode.
-Initializing the Wake Word Mode
-wake_word_mode = True: Keeps track of whether the assistant is currently in wake word mode or not.
-Modifying the Main Loop
+Initializing the Wake Word Mode<br>
+wake_word_mode = True: Keeps track of whether the assistant is currently in wake word mode or not.<br>
+Modifying the Main Loop<br>
 The main loop is split into two parts to handle wake word mode and non-wake word mode separately.
 
 In wake word mode:
