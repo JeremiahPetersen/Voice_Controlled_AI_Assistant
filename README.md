@@ -1,4 +1,4 @@
-# Voice_Controlled_AI_Assistant
+# Voice Controlled AI Assistant
 Voice Controlled AI Assistant with wake word on/off (uses ChatGPT engine="text-davinci-003" which can be modified)
 This is an early stage proof of concept that eventually be a mobile app that the user can use to listen to bot responses pertaining to the voices and dialog around them.  
 # How to Use
