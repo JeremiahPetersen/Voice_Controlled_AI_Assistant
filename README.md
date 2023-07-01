@@ -3,7 +3,7 @@ Voice Controlled AI Assistant with wake word on/off (uses ChatGPT engine="text-d
 This is an early stage proof of concept that will eventually be a mobile app that the user can use to listen to bot responses pertaining to the voices and dialog around them.  
 # How to Use
 Enter your OPEN AI API key in the .env file <br>
-Run Voice_Enabled_AI-Assistant.py
+Run Voice_Enabled_AI-Assistant.py <br>
 The app will start in a listening mode with wake word activated.  The wake word is "oracle" but can be modified in the script.  When you say the wake word, the bot is ready for your question.  After answering your question, the conversation is stored in an ongoing json file, and the app returns to it's initial state.  Both audio from you and the bot are also stored as seperate wav files. 
 # Changing Modes
 To deactivate the wake word mode, you use the wake word (in this case "oracle") and then say "deactivate".  This will change the mode to be "Always Listening".  In this mode, wake word is disabled and every question or statement will get a bot response in return.  In this mode, the user could listen to bot responses to the dialog around them.  
