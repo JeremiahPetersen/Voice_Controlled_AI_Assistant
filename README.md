@@ -54,4 +54,4 @@ In non-wake word mode:
 - If so, it enables wake word mode and continues listening for the wake word.
 - If the prompt is not a wake word mode control command, it generates a response and handles it as before.
 
-By introducing wake word mode control commands, users can dynamically enable or disable the wake word functionality based on their preferences. This provides greater flexibility in how the assistant operates.
+Enjoy and feel free to contribute!
